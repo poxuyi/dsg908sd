@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  font-size: 26px;
+  font-weight: 700px;
+  color: #364300;
+  padding: 25px 75px;
+  border-radius: 15px;
+  background: linear-gradient(75.57deg, #a2b06e 21%, #faffe6 149.36%);
+  border: none;
+  border-bottom: 5px solid #a2b06e;
+}
+
+.header {
+  background-image: url(./img/Group\ 387.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 850px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.menu-box {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  a {
+    color: #bf608a;
+    font-weight: 700px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 900px;
+  text-transform: uppercase;
+  color: #bf608a;
+}
+.wrapper {
+  text-align: center;
+  padding-bottom: 120px;
+  padding-top: 52px;
+  background-image: url(./img/рука\ с\ мылом.png);
+  background-repeat: no-repeat;
+  background-position: center 170px;
+
+  @media (max-width: 850px) {
+    background-position: center 115px;
+  }
+
+  h1 {
+    font-size: 114px;
+    text-transform: uppercase;
+    color: #faffe6;
+    margin-bottom: 300px;
+
+    @media (max-width: 850px) {
+      font-size: 80px;
+    }
+  }
+}
+
+.wrapper1{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: 800px) {
+        grid-template-columns: 1fr 1fr ;
+    }
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr  ;
+    }
+}
+
+
+.card1{
+text-align: center;
+    img{
+        max-width: 350px;
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+
+        p{
+            font-size: 26px;
+            color: #4D0122;
+        }
+    }
+}
+
+.title{
+    text-align: center;
+    padding: 90px 0 60px;
+    font-size: 55px;
+    color: #bf608a;
+    text-transform: uppercase;
+
+
+
+@media (max-width:500px) {
+    font-size: 35px;
+}
+
+
+}
+.section1{
+    padding-bottom: 100px;
+}
